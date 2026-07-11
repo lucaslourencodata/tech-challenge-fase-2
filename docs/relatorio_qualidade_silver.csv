@@ -1,0 +1,22 @@
+﻿verificacao,tabela,status,valor_encontrado,valor_esperado,detalhe
+Reconciliação Bronze x Silver,uf,APROVADO,145,145,A quantidade de linhas deve ser preservada.
+Duplicidades,uf,APROVADO,0,0,Não devem existir registros exatamente duplicados.
+Reconciliação Bronze x Silver,municipio,APROVADO,23995,23995,A quantidade de linhas deve ser preservada.
+Duplicidades,municipio,APROVADO,0,0,Não devem existir registros exatamente duplicados.
+Reconciliação Bronze x Silver,meta_alfabetizacao_brasil,APROVADO,3,3,A quantidade de linhas deve ser preservada.
+Duplicidades,meta_alfabetizacao_brasil,APROVADO,0,0,Não devem existir registros exatamente duplicados.
+Reconciliação Bronze x Silver,meta_alfabetizacao_uf,APROVADO,81,81,A quantidade de linhas deve ser preservada.
+Duplicidades,meta_alfabetizacao_uf,APROVADO,0,0,Não devem existir registros exatamente duplicados.
+Reconciliação Bronze x Silver,meta_alfabetizacao_municipio,APROVADO,10704,10704,A quantidade de linhas deve ser preservada.
+Duplicidades,meta_alfabetizacao_municipio,APROVADO,0,0,Não devem existir registros exatamente duplicados.
+Reconciliação Bronze x Silver,alunos,APROVADO,3867999,3867999,A quantidade de linhas deve ser preservada.
+Duplicidades,alunos,APROVADO,0,0,Não deve existir repetição da chave ano + id_aluno.
+Nulos na coluna ano,alunos,APROVADO,0,0,A coluna ano é obrigatória.
+Nulos na coluna id_municipio,alunos,APROVADO,0,0,A coluna id_municipio é obrigatória.
+Nulos na coluna id_aluno,alunos,APROVADO,0,0,A coluna id_aluno é obrigatória.
+Nulos na coluna presenca,alunos,APROVADO,0,0,A coluna presenca é obrigatória.
+Domínio de anos,alunos,APROVADO,0,0,Somente os anos 2023 e 2024 são esperados.
+Quantidade de alunos em 2023,alunos,APROVADO,1747439,1747439,Comparação com a quantidade da tabela de origem.
+Quantidade de alunos em 2024,alunos,APROVADO,2120560,2120560,Comparação com a quantidade da tabela de origem.
+Municípios sem resultado agregado,alunos,AVISO,1,0,"A tabela municipio contém resultados agregados, não um cadastro completo. Municípios presentes em alunos podem não ter resultado municipal publicado. O caso deve ser registrado como aviso, sem excluir os alunos."
+Metas sem resultado municipal,meta_alfabetizacao_municipio,APROVADO,0,0,Municípios com meta devem possuir resultado agregado na tabela municipio.
