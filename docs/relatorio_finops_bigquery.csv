@@ -1,0 +1,18 @@
+﻿dataset,tabela,tipo,linhas,bytes_totais,bytes_ativos,bytes_longo_prazo,tamanho_legivel,particionada,clusterizacao,expiracao_tabela,expiracao_padrao_dataset_dias
+tc_bronze,alunos,TABLE,3867999,268545240,268545240,0,256.10 MiB,False,"ano, id_municipio, rede",2026-09-10T20:44:29.899000+00:00,60.0
+tc_bronze,eventos_indicador_alfabetizacao,TABLE,10,1882,1882,0,1.84 KiB,False,Não,2026-09-10T20:56:29.862000+00:00,60.0
+tc_bronze,meta_alfabetizacao_brasil,TABLE,3,270,270,0,270.00 B,False,Não,2026-09-10T20:44:13.238000+00:00,60.0
+tc_bronze,meta_alfabetizacao_municipio,TABLE,10704,1151232,1151232,0,1.10 MiB,False,Não,2026-09-10T20:44:22.343000+00:00,60.0
+tc_bronze,meta_alfabetizacao_uf,TABLE,81,7374,7374,0,7.20 KiB,False,Não,2026-09-10T20:44:17.679000+00:00,60.0
+tc_bronze,municipio,TABLE,23995,1832061,1832061,0,1.75 MiB,False,Não,2026-09-10T20:44:07.269000+00:00,60.0
+tc_bronze,uf,TABLE,145,10330,10330,0,10.09 KiB,False,Não,2026-09-10T20:44:02.278000+00:00,60.0
+tc_silver,alunos,TABLE,3867999,492889182,492889182,0,470.06 MiB,False,"ano, id_municipio, rede",2026-09-10T19:58:38.686000+00:00,60.0
+tc_silver,meta_alfabetizacao_brasil,TABLE,3,444,444,0,444.00 B,False,Não,2026-09-10T19:58:22.119000+00:00,60.0
+tc_silver,meta_alfabetizacao_municipio,TABLE,10704,1772064,1772064,0,1.69 MiB,False,Não,2026-09-10T19:58:32.831000+00:00,60.0
+tc_silver,meta_alfabetizacao_uf,TABLE,81,12072,12072,0,11.79 KiB,False,Não,2026-09-10T19:58:26.990000+00:00,60.0
+tc_silver,municipio,TABLE,23995,3223771,3223771,0,3.07 MiB,False,Não,2026-09-10T19:58:16.523000+00:00,60.0
+tc_silver,uf,TABLE,145,18740,18740,0,18.30 KiB,False,Não,2026-09-10T19:58:11.296000+00:00,60.0
+tc_gold,comparacao_meta_resultado_municipio,TABLE,5232,457628,457628,0,446.90 KiB,False,"id_uf, codigo_rede",2026-09-10T19:50:30.229000+00:00,60.0
+tc_gold,evolucao_alfabetizacao_municipio,TABLE,12650,1101820,1101820,0,1.05 MiB,False,"id_uf, codigo_rede",2026-09-10T19:50:36.433000+00:00,60.0
+tc_gold,indicador_alfabetizacao_municipio,TABLE,23995,3162256,3162256,0,3.02 MiB,False,"id_uf, codigo_rede",2026-09-10T19:50:17.430000+00:00,60.0
+tc_gold,metas_alfabetizacao_municipio,TABLE,37344,3771744,3771744,0,3.60 MiB,False,"id_uf, codigo_rede",2026-09-10T19:50:23.331000+00:00,60.0
