@@ -143,6 +143,8 @@ def criar_indicador_municipio(
                 WHEN 2 THEN 'Estadual'
                 WHEN 3 THEN 'Municipal'
                 WHEN 4 THEN 'Privada'
+                WHEN 5 THEN 'Pública (Estadual e Municipal)'
+                WHEN 6 THEN 'Pública (Federal, Estadual e Municipal)'
                 ELSE 'Não identificado'
             END AS rede,
 
@@ -408,6 +410,8 @@ def criar_metas_municipio(
                 WHEN 2 THEN 'Estadual'
                 WHEN 3 THEN 'Municipal'
                 WHEN 4 THEN 'Privada'
+                WHEN 5 THEN 'Pública (Estadual e Municipal)'
+                WHEN 6 THEN 'Pública (Federal, Estadual e Municipal)'
                 ELSE 'Não identificado'
             END AS rede,
 
