@@ -1,0 +1,27 @@
+﻿verificacao,tabela,status,valor_encontrado,valor_esperado,detalhe
+Tabela não vazia,indicador_alfabetizacao_municipio,APROVADO,23995,1,A tabela Gold deve possuir pelo menos um registro.
+Duplicidades na chave analítica,indicador_alfabetizacao_municipio,APROVADO,0,0,Não deve existir mais de um registro para a mesma combinação de chaves.
+Nulos na chave ano,indicador_alfabetizacao_municipio,APROVADO,0,0,A coluna ano faz parte da chave analítica.
+Nulos na chave id_municipio,indicador_alfabetizacao_municipio,APROVADO,0,0,A coluna id_municipio faz parte da chave analítica.
+Nulos na chave codigo_rede,indicador_alfabetizacao_municipio,APROVADO,0,0,A coluna codigo_rede faz parte da chave analítica.
+Tabela não vazia,metas_alfabetizacao_municipio,APROVADO,37344,1,A tabela Gold deve possuir pelo menos um registro.
+Duplicidades na chave analítica,metas_alfabetizacao_municipio,APROVADO,0,0,Não deve existir mais de um registro para a mesma combinação de chaves.
+Nulos na chave id_municipio,metas_alfabetizacao_municipio,APROVADO,0,0,A coluna id_municipio faz parte da chave analítica.
+Nulos na chave codigo_rede,metas_alfabetizacao_municipio,APROVADO,0,0,A coluna codigo_rede faz parte da chave analítica.
+Nulos na chave ano_meta,metas_alfabetizacao_municipio,APROVADO,0,0,A coluna ano_meta faz parte da chave analítica.
+Tabela não vazia,comparacao_meta_resultado_municipio,APROVADO,5232,1,A tabela Gold deve possuir pelo menos um registro.
+Duplicidades na chave analítica,comparacao_meta_resultado_municipio,APROVADO,0,0,Não deve existir mais de um registro para a mesma combinação de chaves.
+Nulos na chave ano,comparacao_meta_resultado_municipio,APROVADO,0,0,A coluna ano faz parte da chave analítica.
+Nulos na chave id_municipio,comparacao_meta_resultado_municipio,APROVADO,0,0,A coluna id_municipio faz parte da chave analítica.
+Nulos na chave codigo_rede,comparacao_meta_resultado_municipio,APROVADO,0,0,A coluna codigo_rede faz parte da chave analítica.
+Tabela não vazia,evolucao_alfabetizacao_municipio,APROVADO,12650,1,A tabela Gold deve possuir pelo menos um registro.
+Duplicidades na chave analítica,evolucao_alfabetizacao_municipio,APROVADO,0,0,Não deve existir mais de um registro para a mesma combinação de chaves.
+Nulos na chave id_municipio,evolucao_alfabetizacao_municipio,APROVADO,0,0,A coluna id_municipio faz parte da chave analítica.
+Nulos na chave codigo_rede,evolucao_alfabetizacao_municipio,APROVADO,0,0,A coluna codigo_rede faz parte da chave analítica.
+Faixa válida de taxa_alfabetizacao,indicador_alfabetizacao_municipio,APROVADO,0,0,A coluna taxa_alfabetizacao deve estar entre 0 e 100.
+Faixa válida de meta_alfabetizacao,metas_alfabetizacao_municipio,APROVADO,0,0,A coluna meta_alfabetizacao deve estar entre 0 e 100.
+Reconciliação da comparação,comparacao_meta_resultado_municipio,APROVADO,5232,5232,A tabela deve conter todas as combinações compatíveis entre indicador e meta.
+Domínio do status da meta,comparacao_meta_resultado_municipio,APROVADO,0,0,O status deve representar uma comparação válida entre indicador e meta.
+Metas nulas na comparação,comparacao_meta_resultado_municipio,APROVADO,0,0,Todos os registros da comparação devem possuir uma meta correspondente.
+Domínio da tendência,evolucao_alfabetizacao_municipio,APROVADO,0,0,A tendência deve pertencer ao domínio definido.
+Municípios sem comparação temporal,evolucao_alfabetizacao_municipio,AVISO,1305,0,Alguns registros não possuem resultado disponível nos dois anos analisados.
