@@ -125,7 +125,7 @@ Os arquivos de dados e logs de execução não são enviados ao repositório por
 ### 1. Clonar o repositório
 
 ```bash
-git clone <URL_DO_REPOSITORIO>
+git clone https://github.com/lucaslourencodata/tech-challenge-fase-2.git
 cd tech-challenge-fase-2
 ```
 
